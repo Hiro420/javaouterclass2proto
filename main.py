@@ -51,7 +51,7 @@ for dirpath, dirnames, filenames in os.walk(root_dir):
                             )
                             somewords = someshit.split()
                             second_word_from_right = somewords[-2]
-                            o.write('import "'+second_word_from_right+'.proto"\n')
+                            o.write('import "'+second_word_from_right+'.proto";\n')
             doimport()
             o.write(f'\nmessage {shit} '+"{\n")
             for line in lines_set:
