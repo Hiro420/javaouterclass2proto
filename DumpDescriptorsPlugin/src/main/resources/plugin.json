@@ -1,0 +1,13 @@
+{
+  "name": "DumpDescriptorsPlugin",
+  "description": "A plugin that dumps all the protobuf descriptors from a GC server.",
+  "version": "6.9.420",
+  "authors": [ "Hiro420" ],
+  "api": 2,
+  
+  "mainClass": "cock.grasscutters.DumpDescriptorsPlugin.DumpDescriptorsPlugin",
+  
+  "comments": [
+    "Don't bug test this because it will break"
+  ]
+}
