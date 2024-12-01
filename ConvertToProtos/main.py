@@ -42,7 +42,7 @@ def do_message(messagetype, writer, indent=0):
     if 'field' in messagetype:
         for field in messagetype['field']:
             oneof_index = field.get('oneofIndex')
-            if oneof_index is not None and oneof_index > 0:
+            if oneof_index is not None:
                 if oneof_index not in oneof_groups:
                     oneof_groups[oneof_index] = []
                 oneof_groups[oneof_index].append(field)
